@@ -1,5 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
+import Weather from "./Weather";
+import ReactAnimatedWeather from 'react-animated-weather';
 
 function App() {
   return (
@@ -15,8 +17,15 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Learn with Pamela Mardones y Sean y Baguel
         </a>
+        <Weather />
+       <ReactAnimatedWeather
+        icon="CLEAR_DAY"
+        color="goldenrod"
+        size={100}
+        animate={true}
+      />
       </header>
     </div>
   );
